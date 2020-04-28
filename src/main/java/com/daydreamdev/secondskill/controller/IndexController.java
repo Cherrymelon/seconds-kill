@@ -1,7 +1,7 @@
 package com.daydreamdev.secondskill.controller;
 
-import com.daydreamdev.secondskill.common.limit.RedisLimit;
-import com.daydreamdev.secondskill.common.stockWithRedis.StockWithRedis;
+import com.daydreamdev.secondskill.common.Limit.RedisLimit;
+import com.daydreamdev.secondskill.common.StockWithRedis.StockWithRedis;
 import com.daydreamdev.secondskill.service.api.OrderService;
 import com.daydreamdev.secondskill.service.api.StockService;
 import lombok.extern.slf4j.Slf4j;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @auther G.Fukang
- * @date 6/7 12:32
+ * @author cherrymelon
+ * @date 4/22 15:11
  */
 @Slf4j
 @Controller

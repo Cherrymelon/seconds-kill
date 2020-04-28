@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /**
- * @auther G.Fukang
- * @date 6/7 20:42
+ * @author cherrymelon
+ * @date 4/19 19:41
  */
 public class ScriptUtil {
 

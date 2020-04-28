@@ -1,8 +1,8 @@
-package com.daydreamdev.secondskill.common.stockWithRedis;
+package com.daydreamdev.secondskill.common.StockWithRedis;
 
 /**
- * @auther G.Fukang
- * @date 6/8 10:59
+ * @author cherrymelon
+ * @date 4/20 18:11
  */
 public class RedisKeysConstant {
 

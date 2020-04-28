@@ -6,8 +6,8 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Update;
 
 /**
- * @auther G.Fukang
- * @date 6/7 14:32
+ * @author cherrymelon
+ * @date 4/22 20:01
  */
 @Mapper()
 public interface StockOrderMapper {

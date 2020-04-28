@@ -6,8 +6,8 @@ import redis.clients.jedis.Jedis;
 import java.util.List;
 
 /**
- * @auther G.Fukang
- * @date 6/8 10:07
+ * @author cherrymelon
+ * @date 4/20 16:11
  */
 @Slf4j
 public class RedisPoolUtil {

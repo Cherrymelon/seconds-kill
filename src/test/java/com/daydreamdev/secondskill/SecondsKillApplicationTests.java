@@ -31,7 +31,7 @@ public class SecondsKillApplicationTests {
 
 	@Test
 	public void StockMapperSelectByPrimaryKeyTest() {
-		Stock stock = stockMapper.selectByPrimaryKey(1);
+		Stock stock = stockMapper.selectByPrimaryKey(2);
 		logger.info("stock: id = {}, name = {}, count = {}, sale = {}, version = {}",
 				stock.getId(), stock.getName(), stock.getCount(), stock.getSale(), stock.getVersion());
 	}

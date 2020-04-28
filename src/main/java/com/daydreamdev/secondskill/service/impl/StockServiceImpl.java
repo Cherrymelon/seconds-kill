@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @auther G.Fukang
- * @date 6/7 12:45
+ * @author cherrymelon
+ * @date 4/19 21:41
  */
 @Service(value = "StockService")
 public class StockServiceImpl implements StockService {

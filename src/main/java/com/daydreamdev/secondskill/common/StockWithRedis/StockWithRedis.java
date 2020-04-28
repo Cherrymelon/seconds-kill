@@ -1,4 +1,4 @@
-package com.daydreamdev.secondskill.common.stockWithRedis;
+package com.daydreamdev.secondskill.common.StockWithRedis;
 
 import com.daydreamdev.secondskill.common.utils.RedisPool;
 import com.daydreamdev.secondskill.common.utils.RedisPoolUtil;
@@ -10,8 +10,8 @@ import redis.clients.jedis.Transaction;
 import java.util.List;
 
 /**
- * @auther G.Fukang
- * @date 6/8 21:47
+ * @author cherrymelon
+ * @date 4/17 15:41
  */
 @Slf4j
 public class StockWithRedis {
@@ -27,9 +27,9 @@ public class StockWithRedis {
             // 开始事务
             Transaction transaction = jedis.multi();
             // 事务操作
-            RedisPoolUtil.decr(RedisKeysConstant.STOCK_COUNT + stock.getId());
-            RedisPoolUtil.incr(RedisKeysConstant.STOCK_SALE + stock.getId());
-            RedisPoolUtil.incr(RedisKeysConstant.STOCK_VERSION + stock.getId());
+            RedisPoolUtil.decr(com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant.STOCK_COUNT + stock.getId());
+            RedisPoolUtil.incr(com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant.STOCK_SALE + stock.getId());
+            RedisPoolUtil.incr(com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant.STOCK_VERSION + stock.getId());
             // 结束事务
             List<Object> list = transaction.exec();
         } catch (Exception e) {
@@ -49,9 +49,9 @@ public class StockWithRedis {
             // 开始事务
             Transaction transaction = jedis.multi();
             // 事务操作
-            RedisPoolUtil.set(RedisKeysConstant.STOCK_COUNT + 1, "50");
-            RedisPoolUtil.set(RedisKeysConstant.STOCK_SALE + 1, "0");
-            RedisPoolUtil.set(RedisKeysConstant.STOCK_VERSION + 1, "0");
+            RedisPoolUtil.set(com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant.STOCK_COUNT + 1, "50");
+            RedisPoolUtil.set(com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant.STOCK_SALE + 1, "0");
+            RedisPoolUtil.set(com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant.STOCK_VERSION + 1, "0");
             // 结束事务
             List<Object> list = transaction.exec();
         } catch (Exception e) {

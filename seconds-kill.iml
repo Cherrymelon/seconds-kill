@@ -48,7 +48,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.11.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:1.5.7.RELEASE" level="project" />
@@ -78,28 +78,11 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.20" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:8.5.20" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.11.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.0" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: com.alibaba:jconsole:1.8.0">
-        <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_144/lib/jconsole.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Maven: com.alibaba:tools:1.8.0">
-        <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_144/lib/tools.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.17" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.17" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.44" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.19" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:1.8.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:1.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.13.7.RELEASE" level="project" />

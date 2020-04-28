@@ -11,12 +11,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableKafka
-@ComponentScan("com.daydreamdev.secondskill")
 public class SecondsKillApplication {
 
     /**
-     * @author G.Fukang
-     * @date: 6/7 20:49
+     * @author cherrymelon
+     * @date 4/16 13:41
      */
     public static void main(String[] args) {
         SpringApplication.run(SecondsKillApplication.class, args);

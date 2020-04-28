@@ -1,7 +1,7 @@
 package com.daydreamdev.secondskill.service.impl;
 
-import com.daydreamdev.secondskill.common.stockWithRedis.RedisKeysConstant;
-import com.daydreamdev.secondskill.common.stockWithRedis.StockWithRedis;
+import com.daydreamdev.secondskill.common.StockWithRedis.RedisKeysConstant;
+import com.daydreamdev.secondskill.common.StockWithRedis.StockWithRedis;
 import com.daydreamdev.secondskill.common.utils.RedisPoolUtil;
 import com.daydreamdev.secondskill.dao.StockOrderMapper;
 import com.daydreamdev.secondskill.pojo.Stock;
@@ -19,8 +19,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Date;
 
 /**
- * @auther G.Fukang
- * @date 6/7 12:44
+ * @author cherrymelon
+ * @date 4/18 19:01
  */
 @Slf4j
 @Transactional(rollbackFor = Exception.class)

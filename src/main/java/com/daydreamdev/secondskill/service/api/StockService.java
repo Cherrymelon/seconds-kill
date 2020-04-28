@@ -3,8 +3,8 @@ package com.daydreamdev.secondskill.service.api;
 import com.daydreamdev.secondskill.pojo.Stock;
 
 /**
- * @auther G.Fukang
- * @date 6/7 12:35
+ * @author cherrymelon
+ * @date 4/17 16:20
  */
 public interface StockService {
 

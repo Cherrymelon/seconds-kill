@@ -1,4 +1,4 @@
-package com.daydreamdev.secondskill.common.limit;
+package com.daydreamdev.secondskill.common.Limit;
 
 import com.daydreamdev.secondskill.common.utils.RedisPool;
 import com.daydreamdev.secondskill.common.utils.ScriptUtil;
@@ -8,8 +8,8 @@ import redis.clients.jedis.Jedis;
 import java.util.Collections;
 
 /**
- * @auther G.Fukang
- * @date 6/7 21:45
+ * @author cherrymelon
+ * @date 4/19 14:41
  */
 @Slf4j
 public class RedisLimit {

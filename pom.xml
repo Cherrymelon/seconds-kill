@@ -8,7 +8,7 @@
 		<version>1.5.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.daydreamdev</groupId>
+	<groupId>com.cherrymelon</groupId>
 	<artifactId>seconds-kill</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>seconds-kill</name>
@@ -28,6 +28,7 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+			<version>1.18.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -73,12 +74,17 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid-spring-boot-starter</artifactId>
-			<version>1.1.0</version>
+			<version>1.1.17</version>
 		</dependency>
-
+<!--		<dependency>-->
+<!--			<groupId>com.alibaba</groupId>-->
+<!--			<artifactId>druid</artifactId>-->
+<!--			<version>1.1.1</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.19</version>
 		</dependency>
 
 		<!--redis-->
