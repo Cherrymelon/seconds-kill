@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0317a772-365a-412b-bd81-87beeb938dbb" name="Default" comment="" />
+    <list default="true" id="0317a772-365a-412b-bd81-87beeb938dbb" name="Default" comment="fix some problem">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/Kafka/ConsumerListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/Kafka/ConsumerListen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/SecondsKillApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/SecondsKillApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/Limit/RedisLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/Limit/RedisLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/RedisPreheatRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/RedisPreheatRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/StockWithRedis/StockWithRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/StockWithRedis/StockWithRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/stockWithRedis/RedisKeysConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/StockWithRedis/RedisKeysConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/utils/RedisPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/utils/RedisPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/utils/RedisPoolUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/utils/RedisPoolUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/common/utils/ScriptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/common/utils/ScriptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/dao/StockMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/dao/StockMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/dao/StockOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/dao/StockOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/pojo/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/pojo/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/pojo/StockOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/pojo/StockOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/service/api/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/service/api/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/service/api/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/service/api/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daydreamdev/secondskill/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherrymelon/secondskill/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/daydreamdev/secondskill/SecondsKillApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cherrymelon/secondskill/SecondsKillApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,9 +119,9 @@
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="15" />
-    <property name="RequestMappingsPanelWidth1" value="15" />
-    <property name="RequestMappingsPanelWidth2" value="15" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -120,7 +141,7 @@
       <recent name="D:\GitHub\seconds-kill\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecondsKillApplicationTests">
+  <component name="RunManager" selected="Spring Boot.SecondsKillApplication (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -142,34 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daydreamdev.secondskill.KafkaTest.Producer" />
-      <module name="seconds-kill" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.daydreamdev.secondskill.KafkaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisPoolUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daydreamdev.secondskill.common.utils.RedisPoolUtil" />
-      <module name="seconds-kill" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.daydreamdev.secondskill.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RedisTest" />
       <module name="seconds-kill" />
@@ -180,6 +173,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondsKillApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seconds-kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cherrymelon.secondskill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cherrymelon.secondskill" />
+      <option name="MAIN_CLASS_NAME" value="com.cherrymelon.secondskill.SecondsKillApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,6 +212,19 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondsKillApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seconds-kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cherrymelon.secondskill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cherrymelon.secondskill.SecondsKillApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,20 +255,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RedisPoolUtil" />
       <item itemvalue="Application.Consumer" />
-      <item itemvalue="Application.Producer" />
       <item itemvalue="Application.RedisTest" />
       <item itemvalue="JUnit.SecondsKillApplicationTests" />
       <item itemvalue="Spring Boot.SecondsKillApplication" />
+      <item itemvalue="JUnit.SecondsKillApplicationTests (1)" />
+      <item itemvalue="Spring Boot.SecondsKillApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SecondsKillApplication (1)" />
+        <item itemvalue="JUnit.SecondsKillApplicationTests (1)" />
         <item itemvalue="JUnit.SecondsKillApplicationTests" />
         <item itemvalue="Application.RedisTest" />
         <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.RedisPoolUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +316,16 @@
       <workItem from="1587930192675" duration="15573000" />
       <workItem from="1587989276807" duration="16335000" />
       <workItem from="1588065283248" duration="7000" />
+      <workItem from="1588066054479" duration="3974000" />
     </task>
+    <task id="LOCAL-00001" summary="fix some problem">
+      <created>1588066186256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588066186256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +333,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.lua" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix some problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="633" y="207" key="#Custom_Plugin_Repositories" timestamp="1587904751736">
@@ -320,14 +355,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="216" y="167" width="1527" height="756" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587997769620" />
+    <state x="523" y="474" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588079588804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="474" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588079588804" />
     <state x="848" y="299" key="#xdebugger.XInspectDialog" timestamp="1587992310489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="299" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587992310489" />
-    <state x="417" y="142" key="CommitChangelistDialog2" timestamp="1588066150701">
+    <state x="417" y="142" key="CommitChangelistDialog2" timestamp="1588066184655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="142" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588066150701" />
+    <state x="417" y="142" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588066184655" />
     <state x="920" y="438" key="FileChooserDialogImpl" timestamp="1588004465304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -336,42 +375,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="436" width="310" height="272" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588004547967" />
-    <state width="1671" height="305" key="GridCell.Tab.0.bottom" timestamp="1588064749466">
+    <state width="1149" height="203" key="GridCell.Tab.0.bottom" timestamp="1588079777797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749466" />
-    <state width="1671" height="305" key="GridCell.Tab.0.center" timestamp="1588064749466">
+    <state width="1149" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777797" />
+    <state width="1149" height="203" key="GridCell.Tab.0.center" timestamp="1588079777796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749466" />
-    <state width="1671" height="305" key="GridCell.Tab.0.left" timestamp="1588064749465">
+    <state width="1149" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777796" />
+    <state width="1149" height="203" key="GridCell.Tab.0.left" timestamp="1588079777796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749465" />
-    <state width="1671" height="305" key="GridCell.Tab.0.right" timestamp="1588064749466">
+    <state width="1149" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777796" />
+    <state width="1149" height="203" key="GridCell.Tab.0.right" timestamp="1588079777796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749466" />
-    <state width="1671" height="305" key="GridCell.Tab.1.bottom" timestamp="1588064749465">
+    <state width="1149" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777796" />
+    <state width="1149" height="203" key="GridCell.Tab.1.bottom" timestamp="1588079777797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749465" />
-    <state width="1671" height="305" key="GridCell.Tab.1.center" timestamp="1588064749465">
+    <state width="1149" height="203" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777797" />
+    <state width="1149" height="203" key="GridCell.Tab.1.center" timestamp="1588079777797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749465" />
-    <state width="1671" height="305" key="GridCell.Tab.1.left" timestamp="1588064749465">
+    <state width="1149" height="203" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777797" />
+    <state width="1149" height="203" key="GridCell.Tab.1.left" timestamp="1588079777797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749465" />
-    <state width="1671" height="305" key="GridCell.Tab.1.right" timestamp="1588064749465">
+    <state width="1149" height="203" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777797" />
+    <state width="1149" height="203" key="GridCell.Tab.1.right" timestamp="1588079777797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1671" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588064749465" />
+    <state width="1149" height="203" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588079777797" />
     <state x="542" y="191" key="SettingsEditor" timestamp="1588004084033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588004084033" />
+    <state x="505" y="282" key="Vcs.Push.Dialog.v2" timestamp="1588066224450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="505" y="282" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588066224450" />
     <state x="737" y="356" key="chooseDestDirectoryDialog" timestamp="1587929194204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
